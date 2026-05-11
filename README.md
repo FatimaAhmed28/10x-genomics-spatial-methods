@@ -17,6 +17,14 @@ The project covers:
 ---
 
 ## Workflow Pipeline
+
+The workflow includes:
+Loading datasets into AnnData
+Quality inspection and filtering
+Normalization and log transformation
+PCA and UMAP dimensionality reduction
+Leiden clustering
+Spatial visualization and interpretation
   
 <img width="990" height="251" alt="workflow_pipeline" src="https://github.com/user-attachments/assets/a6d09cef-ce79-470b-abcd-9b319c1e25e1" />
 
@@ -51,15 +59,22 @@ The project covers:
 
 ### PBMC3K Dataset
 
-```python
-adata = sc.datasets.pbmc3k_processed()
-```
-
 Used for:
 - AnnData exploration
 - UMAP visualization
 - Metadata analysis
 - Data subsetting
+
+```python
+adata = sc.datasets.pbmc3k_processed()
+```
+PBMC3K UMAP Visualization
+<img width="739" height="431" alt="1" src="https://github.com/user-attachments/assets/953389ee-c02f-487c-9036-8363808b25ce" />
+
+Interpretation
+Clear separation of immune cell populations
+Demonstrates successful dimensionality reduction
+Shows biologically meaningful clustering
 
 ---
 
@@ -76,6 +91,28 @@ Used for:
 - Clustering
 - Spatial visualization
 
+Spatial Distribution of Total Counts
+
+<img width="352" height="431" alt="2" src="https://github.com/user-attachments/assets/88fda3eb-4a30-45c2-82ba-7ff30db355b9" />
+Interpretation
+Each spot represents a Visium capture location
+Brighter regions indicate higher transcript counts
+Spatial expression patterns align with tissue structure
+
+UMAP Plot with Leiden Clusters
+<img width="685" height="431" alt="3" src="https://github.com/user-attachments/assets/2fd0844d-52ba-45c7-b93a-5db804df6294" />
+Interpretation
+Cells grouped into transcriptionally distinct clusters
+Demonstrates cellular heterogeneity
+Reveals functional regions within tissue
+
+Spatial Plot with Leiden Clusters
+<img width="431" height="431" alt="4" src="https://github.com/user-attachments/assets/68f79968-9414-4f6d-8498-fa40ea94b858" />
+Interpretation
+Spatial arrangement of clusters
+Reveals tissue organization
+Identifies spatially localized populations
+
 ---
 
 ### Visium H&E Dataset
@@ -88,6 +125,26 @@ Used for:
 - Tissue-based spatial analysis
 - Cluster visualization
 - Spatial transcriptomics workflows
+
+H&E Spatial Total Counts
+<img width="399" height="431" alt="5" src="https://github.com/user-attachments/assets/6809db3e-141c-43eb-ac08-aac72d2ab146" />
+Interpretation
+Expression overlaid on histological image
+Highlights tissue morphology
+Connects molecular and structural information
+
+UMAP Plot – H&E Leiden Clusters
+<img width="478" height="431" alt="6" src="https://github.com/user-attachments/assets/da58eecf-5889-402c-b6f6-878553456c6f" />
+Interpretation
+Distinct cell populations identified
+Demonstrates transcriptional heterogeneity
+Highlights functional tissue regions
+
+Spatial Plot – H&E Leiden Clusters
+<img width="694" height="431" alt="7" src="https://github.com/user-attachments/assets/9785a368-b253-4556-9fa3-380daaf16922" />
+Interpretation
+Clusters align with histological structures
+Reveals biological organization within tissue
 
 ---
 
@@ -122,13 +179,7 @@ sc.tl.leiden(adata)
 
 # Generated Visualizations
 
-The notebook generates:
-- UMAP embeddings
-- Spatial tissue plots
-- Leiden clustering maps
-- Gene expression visualizations
 
-Example:
 
 ```python
 sc.pl.umap(adata, color="leiden")
