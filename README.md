@@ -19,11 +19,12 @@ The project covers:
 ## Workflow Pipeline
 
 The workflow includes:
-Loading datasets into AnnData
-Quality inspection and filtering
-Normalization and log transformation
-PCA and UMAP dimensionality reduction
-Leiden clustering
+- Loading datasets into AnnData
+- Quality inspection and filtering
+- Normalization and log transformation
+- PCA and UMAP dimensionality reduction
+- Leiden clustering
+  
 Spatial visualization and interpretation
   
 <img width="990" height="251" alt="workflow_pipeline" src="https://github.com/user-attachments/assets/a6d09cef-ce79-470b-abcd-9b319c1e25e1" />
