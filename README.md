@@ -1,11 +1,6 @@
 # 10x Genomics Spatial Methods
 
 
-## Workflow Pipeline
-  
-<img width="990" height="251" alt="workflow_pipeline" src="https://github.com/user-attachments/assets/a6d09cef-ce79-470b-abcd-9b319c1e25e1" />
-
-
 ## Overview
 
 This repository contains a Google Colab notebook demonstrating spatial transcriptomics analysis using Scanpy and Squidpy.
@@ -21,11 +16,9 @@ The project covers:
 
 ---
 
-# Notebook
-
-```text
-https://colab.research.google.com/drive/1W7euGLRboVdPENGzFcxCnLvwxAAbVVh-?usp=sharing
-```
+## Workflow Pipeline
+  
+<img width="990" height="251" alt="workflow_pipeline" src="https://github.com/user-attachments/assets/a6d09cef-ce79-470b-abcd-9b319c1e25e1" />
 
 ---
 
@@ -234,6 +227,12 @@ numpy
 - The workflow includes preprocessing, clustering, dimensionality reduction, and visualization.
 
 ---
+# Notebook
+
+```text
+https://colab.research.google.com/drive/1W7euGLRboVdPENGzFcxCnLvwxAAbVVh-?usp=sharing
+```
+
 
 # Conclusion
 
