@@ -253,15 +253,6 @@ with zipfile.ZipFile(
 │
 └── figures/
 ```
-Xenium UMAP Clustering
-<img width="601" height="431" alt="8" src="https://github.com/user-attachments/assets/aa9664af-60c8-42fe-9f42-fc31e9395c78" />
-
-
-Gene Expression on UMAP
-<img width="539" height="431" alt="9" src="https://github.com/user-attachments/assets/e8002e30-79d5-4440-88c6-9e02a9d252e5" />
-
----
-
 
 # Technology Comparison
 
