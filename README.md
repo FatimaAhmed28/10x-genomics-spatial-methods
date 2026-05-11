@@ -69,7 +69,9 @@ Used for:
 ```python
 adata = sc.datasets.pbmc3k_processed()
 ```
+
 PBMC3K UMAP Visualization
+
 <img width="739" height="431" alt="1" src="https://github.com/user-attachments/assets/953389ee-c02f-487c-9036-8363808b25ce" />
 
 Interpretation
@@ -104,6 +106,7 @@ Interpretation
 ---
 
 UMAP Plot with Leiden Clusters
+
 <img width="685" height="431" alt="3" src="https://github.com/user-attachments/assets/2fd0844d-52ba-45c7-b93a-5db804df6294" />
 
 Interpretation
@@ -114,6 +117,7 @@ Interpretation
 ---
 
 Spatial Plot with Leiden Clusters
+
 <img width="431" height="431" alt="4" src="https://github.com/user-attachments/assets/68f79968-9414-4f6d-8498-fa40ea94b858" />
 Interpretation
 Spatial arrangement of clusters
@@ -136,6 +140,7 @@ Used for:
 ---
 
 H&E Spatial Total Counts
+
 <img width="399" height="431" alt="5" src="https://github.com/user-attachments/assets/6809db3e-141c-43eb-ac08-aac72d2ab146" />
 
 Interpretation
@@ -144,7 +149,9 @@ Interpretation
 - Connects molecular and structural information
 
 ---
+
 UMAP Plot – H&E Leiden Clusters
+
 <img width="478" height="431" alt="6" src="https://github.com/user-attachments/assets/da58eecf-5889-402c-b6f6-878553456c6f" />
 
 Interpretation
@@ -155,6 +162,7 @@ Interpretation
 ---
 
 Spatial Plot – H&E Leiden Clusters
+
 <img width="694" height="431" alt="7" src="https://github.com/user-attachments/assets/9785a368-b253-4556-9fa3-380daaf16922" />
 
 Interpretation
@@ -203,9 +211,11 @@ sc.pl.spatial(adata, color="leiden")
 
 ```
 Xenium UMAP Clustering
+
 <img width="601" height="431" alt="8" src="https://github.com/user-attachments/assets/aa9664af-60c8-42fe-9f42-fc31e9395c78" />
 
 Gene Expression on UMAP
+
 <img width="539" height="431" alt="9" src="https://github.com/user-attachments/assets/e8002e30-79d5-4440-88c6-9e02a9d252e5" />
 
 ```
