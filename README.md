@@ -137,11 +137,6 @@ sc.pl.spatial(adata, color="leiden")
 
 ---
 
-# Technology Comparison
-
-<img width="640" height="328" alt="technology_comparison" src="https://github.com/user-attachments/assets/760615ce-da6d-4105-a90c-ad552507778d" />
-
----
 
 # Xenium Dataset Setup
 
@@ -189,21 +184,10 @@ with zipfile.ZipFile(
 
 ---
 
-# Requirements
 
-Create a `requirements.txt` file containing:
+# Technology Comparison
 
-```text
-scanpy
-squidpy
-anndata
-matplotlib
-seaborn
-pooch
-leidenalg
-igraph
-numpy
-```
+<img width="640" height="328" alt="technology_comparison" src="https://github.com/user-attachments/assets/760615ce-da6d-4105-a90c-ad552507778d" />
 
 ---
 
