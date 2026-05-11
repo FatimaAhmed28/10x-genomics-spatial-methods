@@ -72,9 +72,9 @@ PBMC3K UMAP Visualization
 <img width="739" height="431" alt="1" src="https://github.com/user-attachments/assets/953389ee-c02f-487c-9036-8363808b25ce" />
 
 Interpretation
-Clear separation of immune cell populations
-Demonstrates successful dimensionality reduction
-Shows biologically meaningful clustering
+- Clear separation of immune cell populations
+- Demonstrates successful dimensionality reduction
+- Shows biologically meaningful clustering
 
 ---
 
@@ -94,17 +94,19 @@ Used for:
 Spatial Distribution of Total Counts
 
 <img width="352" height="431" alt="2" src="https://github.com/user-attachments/assets/88fda3eb-4a30-45c2-82ba-7ff30db355b9" />
+
 Interpretation
-Each spot represents a Visium capture location
-Brighter regions indicate higher transcript counts
-Spatial expression patterns align with tissue structure
+- Each spot represents a Visium capture location
+- Brighter regions indicate higher transcript counts
+- Spatial expression patterns align with tissue structure
 
 UMAP Plot with Leiden Clusters
 <img width="685" height="431" alt="3" src="https://github.com/user-attachments/assets/2fd0844d-52ba-45c7-b93a-5db804df6294" />
+
 Interpretation
-Cells grouped into transcriptionally distinct clusters
-Demonstrates cellular heterogeneity
-Reveals functional regions within tissue
+- Cells grouped into transcriptionally distinct clusters
+- Demonstrates cellular heterogeneity
+- Reveals functional regions within tissue
 
 Spatial Plot with Leiden Clusters
 <img width="431" height="431" alt="4" src="https://github.com/user-attachments/assets/68f79968-9414-4f6d-8498-fa40ea94b858" />
@@ -128,23 +130,26 @@ Used for:
 
 H&E Spatial Total Counts
 <img width="399" height="431" alt="5" src="https://github.com/user-attachments/assets/6809db3e-141c-43eb-ac08-aac72d2ab146" />
+
 Interpretation
-Expression overlaid on histological image
-Highlights tissue morphology
-Connects molecular and structural information
+- Expression overlaid on histological image
+- Highlights tissue morphology
+- Connects molecular and structural information
 
 UMAP Plot – H&E Leiden Clusters
 <img width="478" height="431" alt="6" src="https://github.com/user-attachments/assets/da58eecf-5889-402c-b6f6-878553456c6f" />
+
 Interpretation
-Distinct cell populations identified
-Demonstrates transcriptional heterogeneity
-Highlights functional tissue regions
+- Distinct cell populations identified
+- Demonstrates transcriptional heterogeneity
+- Highlights functional tissue regions
 
 Spatial Plot – H&E Leiden Clusters
 <img width="694" height="431" alt="7" src="https://github.com/user-attachments/assets/9785a368-b253-4556-9fa3-380daaf16922" />
+
 Interpretation
-Clusters align with histological structures
-Reveals biological organization within tissue
+- Clusters align with histological structures
+- Reveals biological organization within tissue
 
 ---
 
@@ -232,6 +237,12 @@ with zipfile.ZipFile(
 │
 └── figures/
 ```
+Xenium UMAP Clustering
+<img width="601" height="431" alt="8" src="https://github.com/user-attachments/assets/aa9664af-60c8-42fe-9f42-fc31e9395c78" />
+
+
+Gene Expression on UMAP
+<img width="539" height="431" alt="9" src="https://github.com/user-attachments/assets/e8002e30-79d5-4440-88c6-9e02a9d252e5" />
 
 ---
 
